@@ -2,3 +2,8 @@
 
 node --version ##needs to be greater than version 18
 npm install -g @angular/cli  ##installs the latest version of angular (assumes NPM is installed)
+
+## starter files were required to create the basic application##
+## in the same directory as the application files extracted...##
+npm installng serve
+ng serve
