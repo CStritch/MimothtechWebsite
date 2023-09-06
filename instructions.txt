@@ -1,3 +1,6 @@
+
+##Tutorial link https://angular.io/tutorial ##
+
 ## commands that were used to set-up angular##
 
 node --version ##needs to be greater than version 18
@@ -6,4 +9,4 @@ npm install -g @angular/cli  ##installs the latest version of angular (assumes N
 ## starter files were required to create the basic application##
 ## in the same directory as the application files extracted...##
 npm installng serve
-ng serve
+ng serve ##start server to run app. ctrl+c to stop
