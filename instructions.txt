@@ -1,4 +1,4 @@
 ## commands that were used to set-up angular##
 
 node --version ##needs to be greater than version 18
-npm install -g @angular/cli  ##installs the laters version of angular (assumes NPM is installed)
+npm install -g @angular/cli  ##installs the latest version of angular (assumes NPM is installed)
