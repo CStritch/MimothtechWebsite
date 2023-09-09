@@ -8,7 +8,12 @@ npm install -g @angular/cli  ##installs the latest version of angular (assumes N
 
 ## starter files were required to create the basic application##
 ## in the same directory as the application files extracted...##
-npm installng serve
+npm install ng serve
+
+## there may be audit issues, remember to do the following command##
+npm audit fix
+
+
 ng serve ##start server to run app. ctrl+c to stop
 ng generate component housingLocation --standalone --inline-template --skip-tests ## creates a component .ts and .css files
 ng generate interface housinglocation ## creates an interface ?? What does this mean, you ask?
