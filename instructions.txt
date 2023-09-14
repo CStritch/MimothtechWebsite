@@ -10,7 +10,7 @@ npm install -g @angular/cli  ##installs the latest version of angular (assumes N
 ## in the same directory as the application files extracted...##
 npm install ng serve
 
-## there may be audit issues, remember to do the following command##
+## there may be audit issues, remember to do the following command if required##
 npm audit fix
 
 

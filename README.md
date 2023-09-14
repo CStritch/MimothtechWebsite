@@ -12,8 +12,24 @@
 ## - seek other functionality as required.
 ##
 ##
+## Current tasks ##
+##
+## - create docker to represent web server for client
+## - NG server? What about the node server for Json database?
+## - Create web application (hidden from public, password protected?)
+## - - Web application for dev/client to update database
+## - - - function: add stock
+## - - - function: delete stock (Hide?)
+## - - Web application for dev/client to build computer with stock parts
+## - - - function: Add build
+## - - - - Choose components (to match stock available)
+## - - - function: delete build (Hide?)
+## - - - - have exception if stock is deleted to note not available
 ##
 ## - Layout of website is to be landing page followed by functions
+## - - Computer builds
+## - - Stock available
+## - - 
 ##
 ##
 ## ----- Depreciated information ----- ##
