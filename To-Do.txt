@@ -1,2 +1,0 @@
-### This is a to-do list of fixes after tutorial is completed###
-### Fix the search button so that it's responsive to clicking (people able to see it was clicked)###

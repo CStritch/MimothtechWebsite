@@ -1,3 +1,5 @@
+## read instructions.txt to know how to start and stop a server##
+##
 ## objectives##
 ##
 ## - Create website
@@ -14,13 +16,13 @@
 ## - Layout of website is to be landing page followed by functions
 ##
 ##
-## Depreciated information ##
+## ----- Depreciated information ----- ##
 ## when copying from one location to another (i.e. pull) ##
 ## Need to do the following commands:
 ## npm install
 ## npm install -g json-server
 ## ng serve (starts up application at http://localhost:4200)
-## ng serve (starts up application at http://localhost:4200)
+
 
 ## json-server --watch db.json (starts up server to read json file at http://localhose:3000)
 
