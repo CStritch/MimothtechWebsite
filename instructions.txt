@@ -18,3 +18,16 @@ ng serve ##start server to run app. ctrl+c to stop
 ng generate component housingLocation --standalone --inline-template --skip-tests ## creates a component .ts and .css files
 ng generate interface housinglocation ## creates an interface ?? What does this mean, you ask?
 
+## a docker image was made to avoid requring an npm install for every instance of created function ##
+
+## ----- Depreciated information ----- ##
+## when copying from one location to another (i.e. pull) ##
+## Need to do the following commands:
+## npm install
+## npm install -g json-server
+## ng serve (starts up application at http://localhost:4200)
+
+
+## json-server --watch db.json (starts up server to read json file at http://localhose:3000)
+
+## Good luck! This is the basic angular tutorial completed with customisations.
