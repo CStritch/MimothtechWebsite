@@ -1,5 +1,6 @@
 # This requires two servers to run
 # - Angular server to run web page on port 4200
+# - - while in angular folder, run command inc full stop: docker build -t angular-website .
 # - Data server on port 3000 to show nodes database.
 ##
 ## objectives##
