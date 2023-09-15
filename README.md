@@ -1,4 +1,6 @@
-## read instructions.txt to know how to start and stop a server##
+# This requires two servers to run
+# - Angular server to run web page on port 4200
+# - Data server on port 3000 to show nodes database.
 ##
 ## objectives##
 ##
