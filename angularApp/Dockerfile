@@ -1,8 +1,5 @@
-FROM node:16-alpine AS build
+FROM angular/ngcontainer
 WORKDIR /app
-COPY package*.json .
-RUN npm install
-COPY . .
-RUN npm run build
 EXPOSE 4200
-CMD ["npm", "start"]
+CMD npm install -g @angular/cli \ ng new app \ ng serve --host 0.0.0.0
+

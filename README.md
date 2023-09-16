@@ -1,8 +1,9 @@
 # This requires two servers to run
-# - Angular server to run web page on port 4200
+# - Angular server to run web page on port 4200 (docker still in construction)
 # - - while in angular folder, run command inc full stop: docker build -t angular-website .
 
-# - Data server on port 3000 to show nodes database. build and run in /data
+# - Data server on port 3000 to show nodes database. build and run in /data (finished docker)
+# - This uses
 # - - docker build -t json-database .
 # - - docker run -d -p 3000:3000 --name home-data json-database
 #
@@ -21,8 +22,8 @@
 ## Current tasks ##
 ##
 ## - create docker to represent web server for client
-## - NG server? What about the node server for Json database?
-## - Create web application (hidden from public, password protected?)
+## - server setup for data (basics set up, interface for back-end update)
+## - Create web application backend (hidden from public, password protected?)
 ## - - Web application for dev/client to update database
 ## - - - function: add stock
 ## - - - function: delete stock (Hide?)
