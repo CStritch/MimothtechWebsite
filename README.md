@@ -1,11 +1,11 @@
 # This requires two servers to run
 # - Angular server to run web page on port 4200
 # - - while in angular folder, run command inc full stop: docker build -t angular-website .
-# - - - to be able to edit through remote on VScode WSL needs ubuntu distro or other distro to set as default
-# - - - - wsl --install -d ubuntu
-# - - - - wsl -s ubuntu
-# - Data server on port 3000 to show nodes database.
-##
+
+# - Data server on port 3000 to show nodes database. build and run in /data
+# - - docker build -t json-database .
+# - - docker run -d -p 3000:3000 --name home-data json-database
+#
 ## objectives##
 ##
 ## - Create website

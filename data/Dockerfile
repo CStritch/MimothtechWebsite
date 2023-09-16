@@ -1,7 +1,5 @@
-FROM node:16-alpine AS build
-WORKDIR /app
+FROM node:16-alpine
+WORKDIR /data
 RUN npm install -g json-server
-COPY . .
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "start"]
+COPY db.json /data
+CMD json-server --watch /data/db.json --port 3000 --host 0.0.0.0
